@@ -50,10 +50,6 @@ class Module
                     ),
                 ),
             ),
-            'db' => array(
-                'driver' => 'Pdo',
-                'dsn'    => 'mysql:dbname=hello_world;host=localhost',
-            ),
             'controllers' => array(
                 'invokables' => array(
                     'FrameworkBenchmarks\Controller\JsonController' => 'FrameworkBenchmarks\Controller\JsonController',
